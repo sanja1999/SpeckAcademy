@@ -1,0 +1,78 @@
+h1 {
+	text-align: center;
+	margin-top: 30px !important;
+	font-family: "Lucida Handwriting", Times, serif;
+	color: #5700c2;
+	font-size: 40px;
+}
+
+li {
+	list-style-type:none;
+	text-align: center;
+	background-color: #f4ebff;
+	margin: 10px 40px 10px 10px;
+	border: 2px solid #b8a1c9;
+	border-radius: 10px;
+	color: #624d75;
+	font-family: "Verdana", Times, serif;
+	font-size: 20px;
+}
+
+input{
+	background-color: #f5f5f5;
+	margin: 10px;
+	color: #624d75;
+	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+	font-size: 15px;
+	width: 250px;
+}
+
+button {
+	width: 170px;
+	display: inline-block;
+	font-family: "Verdana";
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+
+
+label{
+	font-family: "Verdana", Times, serif;
+	color: #5700c2;
+	font-size: 15px;
+}
+
+p {
+	font-family: "Verdana", Times, serif;
+	color: #5700c2;
+}
+
+.gumb-dodaj {
+	background-color: #c7fce2;
+	border-radius: 10px;
+	border: 2px solid #086100;
+	color: #086100;
+}
+
+.gumb-obrisi {
+	float: right;
+	margin-right: 40px;
+	background-color: #ffded9;
+	border-radius: 10px;
+	border: 2px solid #805763;
+	color: #573d39;
+}
+
+.poravnanje {
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+.kolicina{
+	font-size: 20px;
+	
+	
+}

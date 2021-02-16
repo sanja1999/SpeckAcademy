@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aplikacija</title>
+
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<h1>Proizvodi</h1>
+		<hr>
+
+		<label class="poravnanje" for="naziv">Naziv proizvoda:</label><br>
+		<input class="poravnanje" type="text" id="naziv" name="naziv" placeholder="Unesite naziv proizvoda"><br>
+
+		<button type="button" id="dodaj" class="poravnanje gumb-dodaj" onclick="dodajElement()">Dodaj</button>
+		<button type="button" id="obrisi" class="poravnanje gumb-obrisi" onclick="obrisiSve()">Obriši sve</button>
+
+		<p class="poravnanje">Broj proizvoda: <span id="kolicina" class="kolicina">0</span></p>
+
+		<ul id="lista"></ul>
+	</body>
+</html>
